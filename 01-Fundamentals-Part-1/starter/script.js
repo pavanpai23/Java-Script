@@ -34,22 +34,70 @@
 
 // challenge 1
 
-const markweight=78;
-const jhonsweight=92;
-const markheight=1.69;
-const jhonheight=1.95;
+// const markweight=78;
+// const jhonsweight=92;
+// const markheight=1.69;
+// const jhonheight=1.95;
 
-bmimark=markweight/markheight**2;
+// bmimark=markweight/markheight**2;
 
-bmijhon=jhonsweight/(jhonheight*jhonheight);
+// bmijhon=jhonsweight/(jhonheight*jhonheight);
 
-console.log(bmijhon,bmimark);
+// console.log(bmijhon,bmimark);
 
 
 
-if(bmimark>bmijhon){
-    console.log('true');
-}else{
-    console.log('flase');
+// if(bmimark>bmijhon){
+//     console.log('true');
+// }else{
+//     console.log('flase');
     
-}
+// }
+
+
+//template litrals
+
+// const firstname="pavan";
+// const job="student";
+// const birthyear="2006";
+// const year="2025";
+
+// const pavan=" I'm " + firstname + ' ,a' + (year-birthyear) + " yearold "+ job+ " !";
+// console.log(pavan);
+
+// const pavannew= `I'm ${firstname}, a ${year-birthyear} yearsold ${job}`
+// console.log(pavannew);
+
+//challenge 2
+
+
+// const markweight=78;
+// const jhonsweight=92;
+// const markheight=1.69;
+// const jhonheight=1.95;
+
+// bmimark=markweight/markheight**2;
+
+// bmijhon=jhonsweight/(jhonheight*jhonheight);
+
+// console.log(bmijhon,bmimark);
+
+// if(bmimark>bmijhon){
+//     console.log(`Mark's BMI ${bmimark}is higher than John's!`);
+// }
+// else{
+//     console.log(`"John's BMI is higher than Mark's!`);
+    
+// }
+
+
+//type converstion
+
+const inputyear='1991'
+console.log(Number(inputyear),inputyear);
+console.log(Number(inputyear)+18);
+
+console.log(Number('pavan'));
+console.log(typeof NAN);
+
+console.log(String(23),23);
