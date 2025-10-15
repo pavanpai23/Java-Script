@@ -93,11 +93,43 @@
 
 //type converstion
 
-const inputyear='1991'
-console.log(Number(inputyear),inputyear);
-console.log(Number(inputyear)+18);
+// const inputyear='1991'
+// console.log(Number(inputyear),inputyear);
+// console.log(Number(inputyear)+18);
 
-console.log(Number('pavan'));
-console.log(typeof NAN);
+// console.log(Number('pavan'));
+// console.log(typeof NAN);
 
-console.log(String(23),23);
+// console.log(String(23),23);
+
+
+//truly and falsly values
+ //5 flasly values: 0,'',undefind,null,nan
+
+//  console.log(Boolean(0));
+//  console.log(Boolean(''));
+//  console.log(Boolean(undefined));
+//  console.log(Boolean('pavan'));
+ 
+
+// const age=18;
+// if(age===18){
+//     console.log('you just become an adult');
+    
+// }
+ 
+ const scoredlophin=(97+112+101)/3;
+ const scorekolas=(109+95+123)/3
+
+ console.log(scoredlophin,scorekolas);
+ 
+ if(scoredlophin>scorekolas && scoredlophin>=100){
+    console.log('tropy win by dlophin');
+ }
+else if(scorekolas>scoredlophin && scorekolas>=100){
+    console.log('tropy win by kolas');
+}
+else if(scoredlophin===scorekolas && scoredlophin>=100 && scorekolas>=100){
+    console.log('both win thropy');
+    
+}
