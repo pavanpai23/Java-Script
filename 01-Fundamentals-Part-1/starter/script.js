@@ -118,18 +118,46 @@
     
 // }
  
- const scoredlophin=(97+112+101)/3;
- const scorekolas=(109+95+123)/3
+//  const scoredlophin=(97+112+101)/3;
+//  const scorekolas=(109+95+123)/3
 
- console.log(scoredlophin,scorekolas);
+//  console.log(scoredlophin,scorekolas);
  
- if(scoredlophin>scorekolas && scoredlophin>=100){
-    console.log('tropy win by dlophin');
- }
-else if(scorekolas>scoredlophin && scorekolas>=100){
-    console.log('tropy win by kolas');
-}
-else if(scoredlophin===scorekolas && scoredlophin>=100 && scorekolas>=100){
-    console.log('both win thropy');
+//  if(scoredlophin>scorekolas && scoredlophin>=100){
+//     console.log('tropy win by dlophin');
+//  }
+// else if(scorekolas>scoredlophin && scorekolas>=100){
+//     console.log('tropy win by kolas');
+// }
+// else if(scoredlophin===scorekolas && scoredlophin>=100 && scorekolas>=100){
+//     console.log('both win thropy');
     
+// }
+
+//switch
+
+const day='monday';
+
+switch(day){
+case'monday':
+console.log('hi');
+break;
+case'tuesaday':
+console.log('hello');
+break;
+case'wensaday':
+console.log('how ar eu');
+break;
+case'thursaday':
+console.log('abachs');
+break;
+case'friday':
+break;
+console.log('asjjhd');
+break;
+default:
+    console.log('good bye');
 }
+
+
+
