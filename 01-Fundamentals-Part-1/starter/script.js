@@ -136,28 +136,42 @@
 
 //switch
 
-const day='monday';
+// const day='monday';
 
-switch(day){
-case'monday':
-console.log('hi');
-break;
-case'tuesaday':
-console.log('hello');
-break;
-case'wensaday':
-console.log('how ar eu');
-break;
-case'thursaday':
-console.log('abachs');
-break;
-case'friday':
-break;
-console.log('asjjhd');
-break;
-default:
-    console.log('good bye');
-}
+// switch(day){
+// case'monday':
+// console.log('hi');
+// break;
+// case'tuesaday':
+// console.log('hello');
+// break;
+// case'wensaday':
+// console.log('how ar eu');
+// break;
+// case'thursaday':
+// console.log('abachs');
+// break;
+// case'friday':
+// break;
+// console.log('asjjhd');
+// break;
+// default:
+//     console.log('good bye');
+// }
 
 
+//ternary operator
+//  const age=23;
+//   age>=18 ? console.log('we can drink wine🍷') :
+//   console.log('we can drink water💧');
+  
+//   const drink=age>=18 ? 'wine' : 'water';
+//   console.log(drink);
+  
+ //assignment4
 
+ const bill=400;
+ const tip=bill<=300 & bill>=50 ? bill*0.15 : bill*0.2;
+ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill+tip}`);
+ 
