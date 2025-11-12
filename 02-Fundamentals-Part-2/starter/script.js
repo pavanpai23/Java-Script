@@ -44,17 +44,39 @@
 // console.log(yearsleftretirement(2000,'ani'));
 
 
-const fruitcutter=function(fruit){
-  return fruit*5;
-}
+// const fruitcutter=function(fruit){
+//   return fruit*5;
+// }
       
-const fruitprocessor=function(apples,oranges){ 
-  const applecutter=fruitcutter(apples);
- const orangescutter=fruitcutter(oranges);
-  const juice=`juice with ${applecutter}apples and ${orangescutter}oranges`;
- return juice;
+// const fruitprocessor=function(apples,oranges){ 
+//   const applecutter=fruitcutter(apples);
+//  const orangescutter=fruitcutter(oranges);
+//   const juice=`juice with ${applecutter}apples and ${orangescutter}oranges`;
+//  return juice;
+// }
+
+// console.log(fruitprocessor(2,3));
+
+
+//challange1
+const calcavg=(a,b,c)=>(a+b+c)/3;
+console.log(calcavg(3,4,5));
+
+//test1
+const scoreDlopins=calcavg(44,23,71);
+const scorekolas=calcavg(65,54,49);
+console.log(scoreDlopins,scorekolas);
+
+const checkwinner=function(avgDlopins,avgkolas){
+  if(avgDlopins>=2*avgkolas){
+    console.log(`dlopins wins (${avgDlopins}) vs ${avgkolas})`);
+  }else if(avgkolas>=2*avgDlopins){
+    console.log(`kolas wins (${avgkolas}) vs ${avgDlopins})`);
+  }
+  else{
+    console.log('no team wins');
+  }
 }
+console.log(scoreDlopins,scorekolas);
 
-console.log(fruitprocessor(2,3));
-
-
+checkwinner(576,111 )
