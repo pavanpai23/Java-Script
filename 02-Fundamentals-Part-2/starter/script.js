@@ -97,22 +97,67 @@
  
 //  console.log(friend[friend.length-1]);
  
-const friend= ['pavan','ani','ayi'];
-const newlength=friend.push("bappa");
+// const friend= ['pavan','ani','ayi'];
+// const newlength=friend.push("bappa");
+// console.log(friend);
+// console.log(newlength);
+
+// friend.unshift('ama');
+// console.log(friend);
+
+// friend.pop();//last
+// console.log(friend);
+
+// friend.shift(); //first
+// console.log(friend);
+
+// console.log(friend.indexOf('ani')); //if there return + or -
+// console.log(friend.indexOf('bob'));
+
+// console.log(friend.includes('ani'));//if present returns true or flase
+// console.log(friend.includes('bob'))
+
+
+// challange 2
+
+// const caltip=function(bill){
+// return bill>=50 && bill<=300 ? bill*0.15 :bill*0.2;
+// }
+
+// const bill=[125,555,44];
+// const billtips=[caltip(bill[0]),caltip(bill[1]),caltip(bill[2])];
+// const total=[bill[0]+billtips[0],bill[1]+billtips[1],bill[2]+billtips[2]]
+// console.log(total);
+
+// console.log(billtips);
+
+
+//objects
+
+// const pavan={
+//     firstname:'pavan',
+//     lastname:'pai',
+//     age:2006-2099,
+//     job:'student',
+//     friends:['ayi','dada','bappa'],
+// };
+// console.log(pavan);
+
+// console.log(pavan.lastname);
+// console.log(pavan['lastname']);
+
+
+// const namekey='name';
+// console.log(pavan['first'+namekey]);
+
+// const inretsedin=prompt('what do ypu want to know aboutjnas name,age,job');
+// console.log(pavan[inretsedin]);
+
+
+const friends=['michel','raju','chotu'];
+const length=console.log(friends.length);
+const best=console.log(friends[0]);
+
+const friend=`jonas has ${length} friends and his best friend is ${best}`
 console.log(friend);
-console.log(newlength);
 
-friend.unshift('ama');
-console.log(friend);
-
-friend.pop();//last
-console.log(friend);
-
-friend.shift(); //first
-console.log(friend);
-
-console.log(friend.indexOf('ani')); //if there return + or -
-console.log(friend.indexOf('bob'));
-
-console.log(friend.includes('ani'));//if present returns true or flase
-console.log(friend.includes('bob'))
