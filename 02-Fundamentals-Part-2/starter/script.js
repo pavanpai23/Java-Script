@@ -154,10 +154,54 @@
 // console.log(pavan[inretsedin]);
 
 
-const friends=['michel','raju','chotu'];
-const length=console.log(friends.length);
-const best=console.log(friends[0]);
+// const friends=['michel','raju','chotu'];
+// const length=friends.length;
+// const best=friends[0];
+// console.log(length);
+// console.log(best);
+// const friend=`jonas has ${length} friends and his best friend is ${best}`
+// console.log(friend);
 
-const friend=`jonas has ${length} friends and his best friend is ${best}`
-console.log(friend);
 
+// console.log(`${pavan.firstname} has ${pavan.friends.length} friends and his best friend is called ${pavan.friends[0]} `);
+
+//object methods
+
+const pavan={
+    firstname:'pavan',
+    lastname:'pai',
+    age:2006,
+    job:'student',
+    friends:['ayi','dada','bappa'],
+    hasdriverslisense:false,
+
+//       calcAge:function(age){
+//         return 2099 - age;
+//       }
+
+    //  calcAge:function(){
+    //     console.log(this);
+    //     return 2099-this.age;
+       
+    //  }
+     calcAge:function(){
+        this.age= 2099-this.age;
+        return this.age;
+
+     },
+
+     summary:function(){
+            return `${this.firstname} is a ${this.age}-year old ${pavan.job}, and he has ${this.hasdriverslisense ?'a' : 'no' } driving lisence`
+     }
+ };
+
+console.log(pavan.calcAge());
+
+console.log(pavan.age);
+console.log(pavan.age);
+console.log(pavan.age);
+
+//challange
+console.log(`${pavan.firstname} is a ${pavan.age}-year old ${pavan.job},and he has a drivinglisence`);
+
+console.log(pavan.summary());
