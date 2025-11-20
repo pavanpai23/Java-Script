@@ -167,13 +167,13 @@
 
 //object methods
 
-const pavan={
-    firstname:'pavan',
-    lastname:'pai',
-    age:2006,
-    job:'student',
-    friends:['ayi','dada','bappa'],
-    hasdriverslisense:false,
+// const pavan={
+//     firstname:'pavan',
+//     lastname:'pai',
+//     age:2006,
+//     job:'student',
+//     friends:['ayi','dada','bappa'],
+//     hasdriverslisense:false,
 
 //       calcAge:function(age){
 //         return 2099 - age;
@@ -184,24 +184,65 @@ const pavan={
     //     return 2099-this.age;
        
     //  }
-     calcAge:function(){
-        this.age= 2099-this.age;
-        return this.age;
+//      calcAge:function(){
+//         this.age= 2099-this.age;
+//         return this.age;
 
-     },
+//      },
 
-     summary:function(){
-            return `${this.firstname} is a ${this.age}-year old ${pavan.job}, and he has ${this.hasdriverslisense ?'a' : 'no' } driving lisence`
-     }
- };
+//      summary:function(){
+//             return `${this.firstname} is a ${this.age}-year old ${pavan.job}, and he has ${this.hasdriverslisense ?'a' : 'no' } driving lisence`
+//      }
+//  };
 
-console.log(pavan.calcAge());
+// console.log(pavan.calcAge());
 
-console.log(pavan.age);
-console.log(pavan.age);
-console.log(pavan.age);
+// console.log(pavan.age);
+// console.log(pavan.age);
+// console.log(pavan.age);
 
-//challange
-console.log(`${pavan.firstname} is a ${pavan.age}-year old ${pavan.job},and he has a drivinglisence`);
+// //challange
+// console.log(`${pavan.firstname} is a ${pavan.age}-year old ${pavan.job},and he has a drivinglisence`);
 
-console.log(pavan.summary());
+// console.log(pavan.summary());
+
+
+//challange 3
+// const mark={
+// fullname:'mark miller',
+// mass:78,
+// height:1.69,
+// calcbmi:function(){
+//   this.bmi=this.mass/this.height **2;
+//   return this.bmi;
+// }
+// };
+
+// const jhon={
+// fullname:'jhon smith',
+// mass:92,
+// height:1.95,
+// calcbmi:function(){
+//   this.bmi=this.mass/this.height **2;
+//   return this.bmi;
+// }
+// };
+
+// mark.calcbmi();
+// console.log(mark.bmi);
+
+
+// jhon.calcbmi();
+// console.log(jhon.bmi);
+
+// if(mark.bmi>jhon.bmi){
+//     console.log(`${mark.fullname}'s BMI ${mark.bmi} is higher then ${jhon.fullname}'s ${jhon.bmi}`);   
+// }else{
+//     console.log(`${jhon.fullname}'s BMI ${jhon.bmi} is higher then ${mark.fullname}'s ${mark.bmi}`);  
+// }
+
+//loops
+
+for(let rep=1;rep<=10;rep++){
+    console.log(`lipting weigth repitation ${rep}`);
+}
