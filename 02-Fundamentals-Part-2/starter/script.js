@@ -243,6 +243,49 @@
 
 //loops
 
-for(let rep=1;rep<=10;rep++){
-    console.log(`lipting weigth repitation ${rep}`);
+// for(let rep=1;rep<=10;rep++){
+//     console.log(`lipting weigth repitation ${rep}`);
+// }
+
+//loops....
+
+const jhonas=[
+    'jhonas',
+    'schamidth',
+    2037-1991,
+    'teacher',
+    ['michel','dhoni','vk']
+];
+
+// for(let i=0;i<jhonas.length;i++){
+//     console.log(jhonas[i],typeof jhonas[i]);
+// }
+
+// const years =[2003,2004,2006,2009,2011 ];
+// const ages=[];
+
+// for(let i=0;i<years.length;i++){
+//     ages.push(2037-years[i]);
+// }
+// console.log(ages);
+
+// //continue and break
+// console.log('---ONLY STRINGS---');
+
+// for(let i=0;i<jhonas.length;i++){
+//     if(typeof jhonas[i]!=='string')continue;
+//     console.log(jhonas[i],typeof jhonas[i]);
+// }
+
+// console.log('---BREAK WITH NUMBERS---');
+
+// for(let i=0;i<jhonas.length;i++){
+//     if(typeof jhonas[i]==='number ')break;
+//     console.log(jhonas[i],typeof jhonas[i]);
+// }
+
+//printing back
+
+for(let i=jhonas.length-1;i>=0;i--){
+    console.log(jhonas[i]);
 }
