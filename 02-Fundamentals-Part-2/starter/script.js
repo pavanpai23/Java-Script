@@ -249,13 +249,13 @@
 
 //loops....
 
-const jhonas=[
-    'jhonas',
-    'schamidth',
-    2037-1991,
-    'teacher',
-    ['michel','dhoni','vk']
-];
+// const jhonas=[
+//     'jhonas',
+//     'schamidth',
+//     2037-1991,
+//     'teacher',
+//     ['michel','dhoni','vk']
+// ];
 
 // for(let i=0;i<jhonas.length;i++){
 //     console.log(jhonas[i],typeof jhonas[i]);
@@ -286,6 +286,46 @@ const jhonas=[
 
 //printing back
 
-for(let i=jhonas.length-1;i>=0;i--){
-    console.log(jhonas[i]);
+// for(let i=jhonas.length-1;i>=0;i--){
+//     console.log(jhonas[i]);
+// }
+
+// // while loop
+// let i=1
+// while(i<=10){
+//     console.log(`Liting weight repitation ${i}`);
+//     i++
+// }
+
+// let dice=Math.trunc(Math.random()*6)+1;
+// console.log(dice);
+
+
+
+const caltip=function(bill){
+return bill>=50 && bill<=300 ? bill*0.15 :bill*0.2;
 }
+
+const bill=[22, 295, 176, 440, 37, 105, 10, 1100, 86,52]; 
+const tips=[];
+const totals=[];
+
+for(let i=0;i<bill.length;i++){
+    const tip=caltip(bill[i]);
+tips.push(tip);
+totals.push(tip+bill[i]);
+}
+
+console.log(bill,tips,totals);
+
+
+const calcavg=function(arr){
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    console.log(sum);
+    
+}
+
+calcavg([2,3,4]);
