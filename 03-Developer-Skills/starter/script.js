@@ -28,16 +28,33 @@
 // const amplitude=calctempAltitude([3, -2, -6, -1],[9, 13, 17, 15, 14, 9, 5]);
 // console.log(amplitude);
 
-const measureKelvin = function () {
-  const measurement = {
-    type: 'temp',
-    unit: 'celcius',
+// const measureKelvin = function () {
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celcius',
 
-    value: Number(prompt('degree celcius')),
-  };
+//     value: Number(prompt('degree celcius')),
+//   };
 
-  console.table([measurement]);
-  const kelvin = measurement.value + 273;
-  return kelvin;
+//   console.table([measurement]);
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
+// console.log(measureKelvin());
+
+// challange 1
+let data1 = [17, 21, 23];
+let data2 = [12, 5, -5, 0, 4];
+
+console.log(` ...${data1[0]}c ...${data1[1]}c ...${data1[2]}c ...`);
+
+const printforecast = function (arr) {
+  let Str = '';
+  for (let i = 0; i < arr.length; i++) {
+    Str = Str + `${arr[i]}c in ${i+1} days ...`;
+  }
+  console.log('...'+ Str);
 };
-console.log(measureKelvin());
+
+printforecast(data1);
+ 
